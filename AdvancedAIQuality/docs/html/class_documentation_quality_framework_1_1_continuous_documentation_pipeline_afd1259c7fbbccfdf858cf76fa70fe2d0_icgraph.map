@@ -1,0 +1,6 @@
+<map id="DocumentationQualityFramework::ContinuousDocumentationPipeline::scheduleDocumentationGeneration" name="DocumentationQualityFramework::ContinuousDocumentationPipeline::scheduleDocumentationGeneration">
+<area shape="rect" id="Node000001" title="Enqueues a request in FIFO order, even before initialization." alt="" coords="114,13,346,72"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Analyzes a fixture, processes one request and simulates publication." alt="" coords="17,29,66,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,44,67,45,66,40,101,42"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="74,21,73,17,68,13,41,8,20,10,10,16,9,22,19,32,14,34,4,24,5,13,18,5,41,3,70,8,78,14,79,22"/>
+</map>

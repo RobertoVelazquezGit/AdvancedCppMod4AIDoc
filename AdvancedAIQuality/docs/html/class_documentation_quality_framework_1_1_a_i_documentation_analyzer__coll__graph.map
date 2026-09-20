@@ -1,0 +1,5 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer" name="DocumentationQualityFramework::AIDocumentationAnalyzer">
+<area shape="rect" id="Node000001" title="Demonstrates documentation quality reports using a fixed fixture." alt="" coords="5,136,221,179"/>
+<area shape="rect" id="Node000002" href="$struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_validation_config.html" title="Options for the mock analyzer." alt="" coords="5,5,221,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,78,116,136,110,135,111,82"/>
+</map>

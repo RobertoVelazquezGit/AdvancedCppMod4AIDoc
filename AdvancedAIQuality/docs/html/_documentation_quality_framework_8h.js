@@ -1,0 +1,10 @@
+var _documentation_quality_framework_8h =
+[
+    [ "DocumentationQualityFramework::AIDocumentationAnalyzer", "class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html", "class_documentation_quality_framework_1_1_a_i_documentation_analyzer" ],
+    [ "DocumentationQualityFramework::AIDocumentationAnalyzer::QualityMetrics", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_quality_metrics.html", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_quality_metrics" ],
+    [ "DocumentationQualityFramework::AIDocumentationAnalyzer::AnalysisReport", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_analysis_report.html", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_analysis_report" ],
+    [ "DocumentationQualityFramework::AIDocumentationAnalyzer::ValidationConfig", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_validation_config.html", "struct_documentation_quality_framework_1_1_a_i_documentation_analyzer_1_1_validation_config" ],
+    [ "DocumentationQualityFramework::ContinuousDocumentationPipeline", "class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html", "class_documentation_quality_framework_1_1_continuous_documentation_pipeline" ],
+    [ "DocumentationQualityFramework::ContinuousDocumentationPipeline::PipelineConfig", "struct_documentation_quality_framework_1_1_continuous_documentation_pipeline_1_1_pipeline_config.html", "struct_documentation_quality_framework_1_1_continuous_documentation_pipeline_1_1_pipeline_config" ],
+    [ "DocumentationQualityFramework::ContinuousDocumentationPipeline::GenerationTask", "struct_documentation_quality_framework_1_1_continuous_documentation_pipeline_1_1_generation_task.html", "struct_documentation_quality_framework_1_1_continuous_documentation_pipeline_1_1_generation_task" ]
+];

@@ -1,0 +1,9 @@
+<map id="DocumentationQualityFramework::ContinuousDocumentationPipeline::processGenerationQueue" name="DocumentationQualityFramework::ContinuousDocumentationPipeline::processGenerationQueue">
+<area shape="rect" id="Node000001" title="Drains the queue synchronously and emits mock generation messages." alt="" coords="5,5,235,64"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html#a7797ad1b1a90344a86615292dfc3c94e" title="Prints a simulated generation event and optionally publishes." alt="" coords="283,5,512,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,32,270,34,265,35,235,37"/>
+<area shape="rect" id="Node000003" href="$class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html#a072ecdeabf46e230b7e5a6307951e57c" title="Uses a nonempty check before simulated automatic publication." alt="" coords="560,5,789,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="512,32,547,35,542,35,512,37"/>
+<area shape="rect" id="Node000004" href="$class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html#ad1d10643d934f244c97d466b7c83d654" title="Prints simulated publishing messages when initialized." alt="" coords="837,5,1067,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="790,32,825,35,819,35,790,37"/>
+</map>

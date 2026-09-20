@@ -1,0 +1,5 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::identifyInconsistencies" name="DocumentationQualityFramework::AIDocumentationAnalyzer::identifyInconsistencies">
+<area shape="rect" id="Node000001" title="Finds repeated path labels when cross&#45;reference checks are enabled." alt="" coords="269,5,484,64"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a83e237ff463a0f3d617431d2f6b6eeaf" title="Destroys engines where their types are complete." alt="" coords="5,5,221,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,35,221,37,221,32,256,34"/>
+</map>

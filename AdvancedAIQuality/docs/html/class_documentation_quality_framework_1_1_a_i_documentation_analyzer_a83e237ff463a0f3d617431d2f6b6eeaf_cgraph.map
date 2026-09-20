@@ -1,0 +1,20 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::~AIDocumentationAnalyzer" name="DocumentationQualityFramework::AIDocumentationAnalyzer::~AIDocumentationAnalyzer">
+<area shape="rect" id="Node000001" title="Destroys engines where their types are complete." alt="" coords="5,171,221,229"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a692f5b53bb83bb0250fdb3170ecd0f47" title="Analyzes a fixed &quot;Overview / Usage&quot; fixture." alt="" coords="269,5,484,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,168,199,121,267,74,279,70,275,73,270,78,202,125,147,172"/>
+<area shape="rect" id="Node000005" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3013650cd2fd362f4b990c50194b23f6" title="Computes exact&#45;name coverage of code elements by section labels." alt="" coords="269,88,484,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="208,168,268,150,264,153,210,172"/>
+<area shape="rect" id="Node000006" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a9d4114815559a9e19561dfb8522221c3" title="Finds repeated path labels when cross&#45;reference checks are enabled." alt="" coords="269,171,484,229"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="220,197,256,199,251,201,222,203"/>
+<area shape="rect" id="Node000007" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a2522bb0710a07f3d2a4d64fdbb153e3d" title="Demonstrates validation by checking three nonempty strings." alt="" coords="269,253,484,312"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="209,227,269,247,263,249,209,233"/>
+<area shape="rect" id="Node000008" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3cc54cc10e31b5748dbed490f2174c64" title="Checks nonempty inputs and the enabled mock checks." alt="" coords="269,336,484,395"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="146,227,202,275,270,322,280,329,274,328,267,326,199,279,145,232"/>
+<area shape="rect" id="Node000003" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3dde26d44dd3054e038d7f429a4e2d3b" title="Maps nonempty inputs to an illustrative score." alt="" coords="532,171,747,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="462,62,485,74,546,115,599,160,594,160,543,119,483,78,462,67"/>
+<area shape="rect" id="Node000004" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a9e3cf1d8c036ca17320e962b44a7af14" title="Finds required labels absent from the supplied text." alt="" coords="532,5,747,64"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="484,32,519,34,514,36,485,37"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="461,333,483,322,543,281,594,241,599,239,546,285,485,326,463,338"/>
+<area shape="rect" id="Node000009" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a55ae1dcacbdf1722b6a1ae4b6cc484db" title="Checks that every example is nonempty." alt="" coords="532,336,747,395"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="484,363,519,365,514,365,485,368"/>
+</map>

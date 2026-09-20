@@ -1,0 +1,7 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::analyzeDocumentation" name="DocumentationQualityFramework::AIDocumentationAnalyzer::analyzeDocumentation">
+<area shape="rect" id="Node000001" title="Analyzes a fixed &quot;Overview / Usage&quot; fixture." alt="" coords="5,47,221,105"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3dde26d44dd3054e038d7f429a4e2d3b" title="Maps nonempty inputs to an illustrative score." alt="" coords="269,5,484,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,56,256,53,251,55,222,62"/>
+<area shape="rect" id="Node000003" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a9e3cf1d8c036ca17320e962b44a7af14" title="Finds required labels absent from the supplied text." alt="" coords="269,88,484,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,90,256,98,251,98,221,96"/>
+</map>

@@ -1,0 +1,39 @@
+# Run from the AdvancedAIQuality project directory: doxygen Doxyfile
+# Configuration based on GuideDoxy.md for the AdvancedAIQuality project.
+PROJECT_NAME           = AdvancedAIQuality
+PROJECT_BRIEF          = "Educational C++ mocks for documentation analysis and generation"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = English
+INPUT                  = .
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */docs/* */x64/* */Debug/* */Release/* */.vs/*
+USE_MDFILE_AS_MAINPAGE  = README.md
+MARKDOWN_SUPPORT       = YES
+OPTIMIZE_OUTPUT_FOR_C  = NO
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+REFERENCES_RELATION    = YES
+REFERENCED_BY_RELATION = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+# CLASS_DIAGRAMS from the guide is obsolete in Doxygen 1.18.
+# CLASS_GRAPH and HAVE_DOT enable the supported class diagrams.
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_IMAGE_FORMAT       = svg
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+WARN_LOGFILE           = docs/doxygen-warnings.log
+

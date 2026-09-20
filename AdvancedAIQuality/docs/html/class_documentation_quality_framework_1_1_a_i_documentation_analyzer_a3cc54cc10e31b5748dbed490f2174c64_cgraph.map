@@ -1,0 +1,7 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::validateTechnicalAccuracy" name="DocumentationQualityFramework::AIDocumentationAnalyzer::validateTechnicalAccuracy">
+<area shape="rect" id="Node000001" title="Checks nonempty inputs and the enabled mock checks." alt="" coords="5,47,221,105"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3dde26d44dd3054e038d7f429a4e2d3b" title="Maps nonempty inputs to an illustrative score." alt="" coords="269,5,484,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,56,256,53,251,55,222,62"/>
+<area shape="rect" id="Node000003" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a55ae1dcacbdf1722b6a1ae4b6cc484db" title="Checks that every example is nonempty." alt="" coords="269,88,484,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,90,256,98,251,98,221,96"/>
+</map>

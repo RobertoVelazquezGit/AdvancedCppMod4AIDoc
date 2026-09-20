@@ -1,0 +1,8 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::analyzeDocumentation" name="DocumentationQualityFramework::AIDocumentationAnalyzer::analyzeDocumentation">
+<area shape="rect" id="Node000001" title="Analyzes a fixed &quot;Overview / Usage&quot; fixture." alt="" coords="269,47,484,105"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Analyzes a fixture, processes one request and simulates publication." alt="" coords="88,29,138,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,62,138,48,138,43,256,59"/>
+<area shape="rect" id="Node000003" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a83e237ff463a0f3d617431d2f6b6eeaf" title="Destroys engines where their types are complete." alt="" coords="5,80,221,139"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="250,92,221,98,221,93,256,91"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="150,29,159,21,157,15,142,10,113,8,81,11,67,18,66,20,69,24,91,35,86,37,66,28,61,21,63,14,79,6,113,3,143,5,161,12,164,22,153,33"/>
+</map>

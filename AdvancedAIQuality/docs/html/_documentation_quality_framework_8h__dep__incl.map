@@ -1,0 +1,7 @@
+<map id="DocumentationQualityFramework.h" name="DocumentationQualityFramework.h">
+<area shape="rect" id="Node000001" title="Educational documentation analysis and generation mocks." alt="" coords="103,5,329,32"/>
+<area shape="rect" id="Node000002" href="$_documentation_quality_framework_8cpp.html" title="Deterministic in&#45;memory implementations; no real AI or publishing." alt="" coords="5,80,246,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,41,142,82,140,77,186,42"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Small example of both documentation quality mocks." alt="" coords="270,80,344,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,39,294,80,289,79,243,44"/>
+</map>

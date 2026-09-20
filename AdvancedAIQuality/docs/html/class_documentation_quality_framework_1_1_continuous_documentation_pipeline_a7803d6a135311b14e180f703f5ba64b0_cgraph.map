@@ -1,0 +1,5 @@
+<map id="DocumentationQualityFramework::ContinuousDocumentationPipeline::~ContinuousDocumentationPipeline" name="DocumentationQualityFramework::ContinuousDocumentationPipeline::~ContinuousDocumentationPipeline">
+<area shape="rect" id="Node000001" title="Stops the mock pipeline during destruction." alt="" coords="5,5,243,64"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html#abf1d02d690aaff503452c1ecf15b50c2" title="Stops monitoring; queued requests remain available for processing." alt="" coords="291,5,520,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,32,278,34,273,35,243,37"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="DocumentationQualityFramework::AIDocumentationAnalyzer::calculateTechnicalAccuracy" name="DocumentationQualityFramework::AIDocumentationAnalyzer::calculateTechnicalAccuracy">
+<area shape="rect" id="Node000001" title="Maps nonempty inputs to an illustrative score." alt="" coords="532,51,747,109"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a692f5b53bb83bb0250fdb3170ecd0f47" title="Analyzes a fixed &quot;Overview / Usage&quot; fixture." alt="" coords="269,9,484,68"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="514,61,484,58,484,53,519,61"/>
+<area shape="rect" id="Node000005" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a3cc54cc10e31b5748dbed490f2174c64" title="Checks nonempty inputs and the enabled mock checks." alt="" coords="269,92,484,151"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="519,99,485,107,484,102,514,100"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Analyzes a fixture, processes one request and simulates publication." alt="" coords="88,29,138,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="251,42,138,45,138,40,255,39"/>
+<area shape="rect" id="Node000004" href="$class_documentation_quality_framework_1_1_a_i_documentation_analyzer.html#a83e237ff463a0f3d617431d2f6b6eeaf" title="Destroys engines where their types are complete." alt="" coords="5,84,221,143"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="253,74,220,86,218,81,259,72"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="150,29,159,21,157,15,142,10,113,8,81,11,67,18,66,20,69,24,90,35,86,37,66,28,61,21,63,14,79,6,113,3,143,5,161,12,164,22,153,33"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="266,87,220,75,138,52,138,46,221,69,271,86"/>
+<area shape="poly" id="edge7_Node000005_Node000004" title=" " alt="" coords="250,118,221,119,221,114,256,117"/>
+</map>

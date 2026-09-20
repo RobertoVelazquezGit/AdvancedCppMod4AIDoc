@@ -1,0 +1,5 @@
+<map id="DocumentationQualityFramework::ContinuousDocumentationPipeline::validateAndPublish" name="DocumentationQualityFramework::ContinuousDocumentationPipeline::validateAndPublish">
+<area shape="rect" id="Node000001" title="Uses a nonempty check before simulated automatic publication." alt="" coords="5,5,235,64"/>
+<area shape="rect" id="Node000002" href="$class_documentation_quality_framework_1_1_continuous_documentation_pipeline.html#ad1d10643d934f244c97d466b7c83d654" title="Prints simulated publishing messages when initialized." alt="" coords="283,5,512,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,32,270,34,265,35,235,37"/>
+</map>
