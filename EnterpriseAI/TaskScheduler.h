@@ -77,7 +77,7 @@ public:
     /// @param nodeId Identifier to remove.
     void unregisterWorkerNode(const std::string& nodeId) {
         std::lock_guard<std::mutex> lock(nodesMutex);
-        availableNodes.erase(std::remove_if(availableNodes.begin(), availableNodes.end(),
+		availableNodes.erase(std::remove_if(availableNodes.begin(), availableNodes.end(),  // remove_if to work with predicate
             [&](const WorkerNode& node) { return node.nodeId == nodeId; }), availableNodes.end());
     }
 
@@ -96,7 +96,9 @@ public:
             ++scheduledTasks;
         }
         return std::async(std::launch::deferred, task);
-    }
+    }  
+
+    // ToDo
 
     /// @brief Schedules each callable in input order.
     /// @param tasks Callables to copy into independent futures.
