@@ -23,9 +23,21 @@ bool DistributedDataProcessor::partitionData(const std::vector<std::uint8_t>& ra
         partition.startOffset = offset;
         partition.endOffset = offset + length;
         partition.data.assign(rawData.begin() + offset, rawData.begin() + offset + length);
+        /// @note DataPartition has an implicitly generated move constructor:
+        /// its string, vector, and map members are moved, while scalar offsets
+        /// are copied. No user-declared special member prevents its generation.
+        /// std::move enables push_back to select this constructor instead of
+        /// copying the partition and its byte buffer. It does not itself move data.
+        /// The local partition is no longer needed after insertion; it remains
+        /// valid after the move, but its previous contents must not be assumed.
         result.push_back(std::move(partition));
         offset += length;
     }
+    /// @note This invokes vector's move assignment, not DataPartition's move
+    /// constructor. With the standard allocator used here, partitions takes
+    /// ownership of result's storage without moving each element individually.
+    /// The previous contents of partitions are replaced. The local result remains
+    /// valid but its contents are unspecified, and it is no longer used.
     partitions = std::move(result);
     return true;
 }

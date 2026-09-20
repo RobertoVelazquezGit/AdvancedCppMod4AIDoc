@@ -98,8 +98,6 @@ public:
         return std::async(std::launch::deferred, task);
     }  
 
-    // ToDo
-
     /// @brief Schedules each callable in input order.
     /// @param tasks Callables to copy into independent futures.
     /// @param globalConstraints Reserved hints; ignored by the mock.

@@ -13,6 +13,7 @@ int main() {
     using namespace DistributedComputing;
     try {
         using Scheduler = TaskScheduler<std::function<int()>, int>;
+        /// @brief Creates a scheduler using the default scheduling policy.
         Scheduler scheduler(Scheduler::SchedulingPolicy{});
         Scheduler::WorkerNode worker;
         worker.nodeId = "worker-1";

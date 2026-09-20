@@ -47,6 +47,13 @@ public:
     /// @param processingHints Reserved hints; ignored by the mock.
     /// @return Future containing ordered results, or a processor exception.
     /// @note get()/wait() performs the work locally; no background task is started.
+    /// @note The lambda is mutable so its captured processor can invoke a non-const
+    /// operator(), allowing stateful function objects to modify their internal state.
+    /// These changes affect the captured copy, not the caller's original processor.
+    /// @note A function object's copyability depends on its type and members
+    /// (or captures for a lambda). The by-value parameter can be initialized by
+    /// copying or moving, but this implementation requires a copyable processor
+    /// because the lambda subsequently copies it into its capture.
     template<typename DataType, typename ProcessorFunc>
     std::future<std::vector<DataType>> processDistributed(
         const std::vector<DataType>& dataset, ProcessorFunc processor,

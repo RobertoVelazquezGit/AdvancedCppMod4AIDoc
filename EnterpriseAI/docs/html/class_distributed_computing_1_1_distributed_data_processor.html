@@ -199,7 +199,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00011">11</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00021">DistributedComputing::DistributedDataProcessor::ProcessingConfig::chunkSize</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00086">config</a>.</p>
+<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00021">DistributedComputing::DistributedDataProcessor::ProcessingConfig::chunkSize</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00093">config</a>.</p>
 
 </div>
 </div>
@@ -238,9 +238,9 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00047">47</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00059">59</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00088">replicationCopies</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00087">replicationEnabled</a>.</p>
+<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00095">replicationCopies</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00094">replicationEnabled</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00012">main()</a>.</p>
 <div class="dynheader">
@@ -279,10 +279,13 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True after successful partitioning. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="struct_distributed_computing_1_1_distributed_data_processor_1_1_data_partition.html" title="A contiguous byte range and its simulated destination metadata.">DataPartition</a> has an implicitly generated move constructor: its string, vector, and map members are moved, while scalar offsets are copied. No user-declared special member prevents its generation. std::move enables push_back to select this constructor instead of copying the partition and its byte buffer. It does not itself move data. The local partition is no longer needed after insertion; it remains valid after the move, but its previous contents must not be assumed.</dd>
+<dd>
+This invokes vector's move assignment, not <a class="el" href="struct_distributed_computing_1_1_distributed_data_processor_1_1_data_partition.html" title="A contiguous byte range and its simulated destination metadata.">DataPartition</a>'s move constructor. With the standard allocator used here, partitions takes ownership of result's storage without moving each element individually. The previous contents of partitions are replaced. The local result remains valid but its contents are unspecified, and it is no longer used.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00016">16</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00021">DistributedComputing::DistributedDataProcessor::ProcessingConfig::chunkSize</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00086">config</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00033">DistributedComputing::DistributedDataProcessor::DataPartition::data</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00032">DistributedComputing::DistributedDataProcessor::DataPartition::endOffset</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00030">DistributedComputing::DistributedDataProcessor::DataPartition::partitionId</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00031">DistributedComputing::DistributedDataProcessor::DataPartition::startOffset</a>.</p>
+<p class="reference">References <a class="el" href="_distributed_data_processor_8h_source.html#l00021">DistributedComputing::DistributedDataProcessor::ProcessingConfig::chunkSize</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00093">config</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00033">DistributedComputing::DistributedDataProcessor::DataPartition::data</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00032">DistributedComputing::DistributedDataProcessor::DataPartition::endOffset</a>, <a class="el" href="_distributed_data_processor_8h_source.html#l00030">DistributedComputing::DistributedDataProcessor::DataPartition::partitionId</a>, and <a class="el" href="_distributed_data_processor_8h_source.html#l00031">DistributedComputing::DistributedDataProcessor::DataPartition::startOffset</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00012">main()</a>.</p>
 <div class="dynheader">
@@ -344,9 +347,13 @@ template&lt;typename DataType, typename ProcessorFunc&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Future containing ordered results, or a processor exception. </dd></dl>
-<dl class="section note"><dt>Note</dt><dd>get()/wait() performs the work locally; no background task is started. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>get()/wait() performs the work locally; no background task is started. </dd>
+<dd>
+The lambda is mutable so its captured processor can invoke a non-const operator(), allowing stateful function objects to modify their internal state. These changes affect the captured copy, not the caller's original processor. </dd>
+<dd>
+A function object's copyability depends on its type and members (or captures for a lambda). The by-value parameter can be initialized by copying or moving, but this implementation requires a copyable processor because the lambda subsequently copies it into its capture. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00051">51</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00058">58</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00012">main()</a>.</p>
 <div class="dynheader">
@@ -386,7 +393,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Copies with metadata["workerNode"] assigned, or unchanged copies if no worker qualifies. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00034">34</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8cpp_source.html#l00046">46</a> of file <a class="el" href="_distributed_data_processor_8cpp_source.html">DistributedDataProcessor.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00012">main()</a>.</p>
 <div class="dynheader">
@@ -420,7 +427,7 @@ Here is the caller graph for this function:</div>
 
 <p>Local processing settings. </p>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00086">86</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00093">93</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_distributed_data_processor_8cpp_source.html#l00011">DistributedDataProcessor()</a>, and <a class="el" href="_distributed_data_processor_8cpp_source.html#l00016">partitionData()</a>.</p>
 
@@ -448,9 +455,9 @@ Here is the caller graph for this function:</div>
 
 <p>Reserved replication count. </p>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00088">88</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00095">95</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_distributed_data_processor_8cpp_source.html#l00047">enableFaultTolerance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_distributed_data_processor_8cpp_source.html#l00059">enableFaultTolerance()</a>.</p>
 
 </div>
 </div>
@@ -476,9 +483,9 @@ Here is the caller graph for this function:</div>
 
 <p>Reserved replication flag. </p>
 
-<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00087">87</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_distributed_data_processor_8h_source.html#l00094">94</a> of file <a class="el" href="_distributed_data_processor_8h_source.html">DistributedDataProcessor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_distributed_data_processor_8cpp_source.html#l00047">enableFaultTolerance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_distributed_data_processor_8cpp_source.html#l00059">enableFaultTolerance()</a>.</p>
 
 </div>
 </div>
