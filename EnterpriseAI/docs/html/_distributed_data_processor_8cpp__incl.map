@@ -1,0 +1,25 @@
+<map id="DistributedDataProcessor.cpp" name="DistributedDataProcessor.cpp">
+<area shape="rect" id="Node000001" title="Non&#45;template implementations of the local processing mock." alt="" coords="393,5,590,32"/>
+<area shape="rect" id="Node000002" href="$_distributed_data_processor_8h.html" title="Local data&#45;processing mock with a header&#45;defined template method." alt="" coords="199,80,381,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="459,32,341,77,339,72,454,33"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="405,80,479,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="485,31,461,69,458,65,481,34"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="503,80,581,107"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="501,30,527,68,522,67,499,35"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="605,80,658,107"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="516,30,596,72,591,72,515,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,110,82,156,80,151,245,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="90,155,154,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="264,107,166,151,165,146,258,108"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,155,239,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="278,106,235,147,233,142,274,108"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="263,155,317,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="292,105,292,141,288,138,288,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="342,155,388,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="304,105,344,144,339,143,302,110"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="412,155,465,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="317,105,401,147,396,147,315,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="490,155,547,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="330,105,477,153,472,153,329,110"/>
+</map>

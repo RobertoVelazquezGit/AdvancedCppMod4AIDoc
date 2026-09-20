@@ -1,0 +1,5 @@
+<map id="DistributedComputing::DistributedDataProcessor" name="DistributedComputing::DistributedDataProcessor">
+<area shape="rect" id="Node000001" title="Demonstrates partitioning and processing without network operations." alt="" coords="5,136,185,179"/>
+<area shape="rect" id="Node000002" href="$struct_distributed_computing_1_1_distributed_data_processor_1_1_processing_config.html" title="Settings for local processing and reserved distributed features." alt="" coords="5,5,185,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,78,98,136,92,135,93,81"/>
+</map>

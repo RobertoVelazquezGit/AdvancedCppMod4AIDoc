@@ -1,0 +1,6 @@
+<map id="DistributedComputing::TaskScheduler::registerWorkerNode" name="DistributedComputing::TaskScheduler::registerWorkerNode">
+<area shape="rect" id="Node000001" title="Registers a valid worker and records a local heartbeat." alt="" coords="115,21,353,64"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Runs a small local simulation of scheduling and data processing." alt="" coords="17,29,67,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,43,67,45,67,40,102,42"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="75,21,74,17,70,13,42,8,20,10,10,16,9,22,19,31,14,34,4,24,6,13,19,5,42,3,72,8,79,14,80,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="TaskScheduler.h" name="TaskScheduler.h">
+<area shape="rect" id="Node000001" title="Header&#45;only mock scheduler for local callable tasks." alt="" coords="95,5,213,32"/>
+<area shape="rect" id="Node000002" href="$_distributed_computing_8h.html" title="Convenience header exposing both distributed computing mock classes." alt="" coords="5,80,164,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,42,98,82,95,78,129,44"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Basic usage of the scheduler and data processor mocks." alt="" coords="187,80,262,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,41,215,80,210,79,176,46"/>
+</map>

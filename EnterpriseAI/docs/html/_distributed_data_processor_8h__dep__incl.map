@@ -1,0 +1,9 @@
+<map id="DistributedDataProcessor.h" name="DistributedDataProcessor.h">
+<area shape="rect" id="Node000001" title="Local data&#45;processing mock with a header&#45;defined template method." alt="" coords="195,5,377,32"/>
+<area shape="rect" id="Node000002" href="$_distributed_computing_8h.html" title="Convenience header exposing both distributed computing mock classes." alt="" coords="5,80,164,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,39,121,82,119,77,235,36"/>
+<area shape="rect" id="Node000003" href="$_distributed_data_processor_8cpp.html" title="Non&#45;template implementations of the local processing mock." alt="" coords="188,80,384,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,46,288,81,284,78,284,50"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title="Basic usage of the scheduler and data processor mocks." alt="" coords="409,80,483,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,36,420,79,415,79,327,41"/>
+</map>

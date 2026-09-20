@@ -1,0 +1,5 @@
+<map id="DistributedComputing::TaskScheduler&lt; TaskType, ResultType &gt;" name="DistributedComputing::TaskScheduler&lt; TaskType, ResultType &gt;">
+<area shape="rect" id="Node000001" title="Stores simulated workers and executes tasks locally on demand." alt="" coords="18,136,204,195"/>
+<area shape="rect" id="Node000002" href="$struct_distributed_computing_1_1_task_scheduler_1_1_scheduling_policy.html" title="Configuration of the educational scheduler." alt="" coords="5,5,217,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,77,114,136,108,135,109,81"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="main.cpp" name="main.cpp">
+<area shape="rect" id="Node000001" title="Basic usage of the scheduler and data processor mocks." alt="" coords="578,5,653,32"/>
+<area shape="rect" id="Node000002" href="$_task_scheduler_8h.html" title="Header&#45;only mock scheduler for local callable tasks." alt="" coords="460,80,579,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="601,32,549,73,547,68,596,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="852,155,929,181"/>
+<area shape="poly" id="edge20_Node000001_Node000005" title=" " alt="" coords="617,30,623,69,631,88,642,104,839,154,833,154,639,109,626,91,618,70,614,35"/>
+<area shape="rect" id="Node000012" href="$_distributed_data_processor_8h.html" title="Local data&#45;processing mock with a header&#45;defined template method." alt="" coords="227,80,409,107"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="575,30,385,79,384,73,580,28"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="653,80,730,107"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="630,30,670,70,665,69,628,35"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="754,80,826,107"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="646,30,748,74,743,74,646,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="570,155,645,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,105,583,145,578,144,534,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="260,155,320,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="482,107,336,155,335,150,477,107"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="580,102,839,154,833,154,579,108"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="344,155,399,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="496,107,412,150,410,145,491,108"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="423,155,469,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="509,106,471,146,468,141,504,108"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="668,155,726,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="551,105,657,150,652,149,550,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="750,155,828,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="567,105,737,152,732,152,566,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="493,155,546,181"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="521,105,522,141,517,137,518,109"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="179,155,236,181"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="462,107,252,156,251,151,457,106"/>
+<area shape="poly" id="edge12_Node000012_Node000004" title=" " alt="" coords="315,106,302,142,299,138,311,109"/>
+<area shape="poly" id="edge15_Node000012_Node000006" title=" " alt="" coords="329,105,356,143,351,141,326,110"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="341,105,413,147,408,147,340,110"/>
+<area shape="poly" id="edge17_Node000012_Node000010" title=" " alt="" coords="354,105,481,152,476,152,353,110"/>
+<area shape="poly" id="edge18_Node000012_Node000011" title=" " alt="" coords="301,106,240,148,238,144,296,108"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="90,155,154,181"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="287,107,170,152,168,147,281,107"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="267,110,82,157,80,151,266,105"/>
+</map>

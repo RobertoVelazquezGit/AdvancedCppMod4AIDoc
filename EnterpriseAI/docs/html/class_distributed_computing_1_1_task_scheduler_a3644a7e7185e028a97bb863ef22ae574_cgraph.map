@@ -1,0 +1,5 @@
+<map id="DistributedComputing::TaskScheduler::registerWorkerNode" name="DistributedComputing::TaskScheduler::registerWorkerNode">
+<area shape="rect" id="Node000001" title="Registers a valid worker and records a local heartbeat." alt="" coords="5,13,244,56"/>
+<area shape="rect" id="Node000002" href="$class_distributed_computing_1_1_task_scheduler.html#aaf9aba73141c809d3b35a3587456fa85" title="Checks descriptive fields only; does not contact the worker." alt="" coords="292,5,491,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,32,279,34,274,35,244,37"/>
+</map>

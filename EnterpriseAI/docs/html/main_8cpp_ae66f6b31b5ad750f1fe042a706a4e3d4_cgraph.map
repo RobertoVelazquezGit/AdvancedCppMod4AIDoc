@@ -1,0 +1,16 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Runs a small local simulation of scheduling and data processing." alt="" coords="17,187,67,213"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="14,191,4,181,6,170,19,163,42,160,72,165,79,172,80,180,75,179,74,174,70,170,42,165,20,168,10,173,9,180,19,189"/>
+<area shape="rect" id="Node000002" href="$class_distributed_computing_1_1_distributed_data_processor.html#acf5069604cbbcda64d7dc0978ea1bd94" title="Stores simulated replication settings; does not replicate data." alt="" coords="144,5,323,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,185,68,132,88,101,113,74,132,63,129,67,116,78,92,104,73,134,50,187"/>
+<area shape="rect" id="Node000003" href="$class_distributed_computing_1_1_distributed_data_processor.html#a8623f1a033c9cd8cae844aac1fc80713" title="Splits bytes into contiguous chunks of at most chunkSize bytes." alt="" coords="144,88,323,147"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="63,184,113,156,132,150,128,154,116,161,66,188"/>
+<area shape="rect" id="Node000004" href="$class_distributed_computing_1_1_distributed_data_processor.html#af562a082793eb0d5ea409900a4e8969e" title="Creates a deferred sequential transformation of a dataset copy." alt="" coords="144,171,323,229"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="66,198,130,198,126,202,68,202"/>
+<area shape="rect" id="Node000005" href="$class_distributed_computing_1_1_distributed_data_processor.html#ada0c80977bcfc56a702c2dc4c9448ef9" title="Copies partitions and assigns mock worker names cyclically." alt="" coords="144,253,323,312"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="64,211,116,239,132,247,127,249,113,244,65,216"/>
+<area shape="rect" id="Node000006" href="$class_distributed_computing_1_1_task_scheduler.html#a3644a7e7185e028a97bb863ef22ae574" title="Registers a valid worker and records a local heartbeat." alt="" coords="115,336,353,379"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="48,211,72,266,91,296,116,322,122,328,117,327,113,326,87,300,68,269,47,216"/>
+<area shape="rect" id="Node000007" href="$class_distributed_computing_1_1_task_scheduler.html#aaf9aba73141c809d3b35a3587456fa85" title="Checks descriptive fields only; does not contact the worker." alt="" coords="401,328,600,387"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="353,355,388,357,383,357,353,360"/>
+</map>
