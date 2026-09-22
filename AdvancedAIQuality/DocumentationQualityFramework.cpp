@@ -54,7 +54,6 @@ namespace DocumentationQualityFramework {
         return report;
     }
 
-    // ToDo
 
     bool AIDocumentationAnalyzer::validateTechnicalAccuracy(const std::string& documentation,
         const std::string& sourceCodePath) {
@@ -105,6 +104,8 @@ namespace DocumentationQualityFramework {
             if (!codeValidator->validate(example)) return false;
         return true;
     }
+
+    // ToDo
 
     ContinuousDocumentationPipeline::ContinuousDocumentationPipeline(const PipelineConfig& config)
         : config(config) {}
