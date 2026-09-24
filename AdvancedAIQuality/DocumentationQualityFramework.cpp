@@ -105,8 +105,6 @@ namespace DocumentationQualityFramework {
         return true;
     }
 
-    // ToDo
-
     ContinuousDocumentationPipeline::ContinuousDocumentationPipeline(const PipelineConfig& config)
         : config(config) {}
 
@@ -120,6 +118,8 @@ namespace DocumentationQualityFramework {
     void ContinuousDocumentationPipeline::startContinuousMonitoring() {
         if (initialized && !isPipelineRunning.exchange(true)) monitorFileChanges();
     }
+
+    // ToDo
 
     void ContinuousDocumentationPipeline::stopPipeline() { isPipelineRunning = false; }
 
