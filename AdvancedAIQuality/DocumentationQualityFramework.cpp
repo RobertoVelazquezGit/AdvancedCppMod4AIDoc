@@ -119,8 +119,6 @@ namespace DocumentationQualityFramework {
         if (initialized && !isPipelineRunning.exchange(true)) monitorFileChanges();
     }
 
-    // ToDo
-
     void ContinuousDocumentationPipeline::stopPipeline() { isPipelineRunning = false; }
 
     std::string ContinuousDocumentationPipeline::scheduleDocumentationGeneration(const GenerationTask& task) {
@@ -138,8 +136,8 @@ namespace DocumentationQualityFramework {
             GenerationTask task;
             {
                 std::lock_guard<std::mutex> lock(queueMutex);
-                if (generationQueue.empty()) break;
-                task = generationQueue.front();
+				if (generationQueue.empty()) break;  // if the queue is empty, exit the loop    
+				task = generationQueue.front();  // task is a copy, not a reference to queue front
                 generationQueue.pop();
             }
             if (!generateDocumentationForFile(task.sourceFilePath)) return false;
