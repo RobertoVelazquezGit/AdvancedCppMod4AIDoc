@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnterpriseAI", "EnterpriseA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedAIQuality", "AdvancedAIQuality\AdvancedAIQuality.vcxproj", "{809E1CF1-93D3-41D4-9A5A-57226B558911}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiModalDoc", "MultiModalDoc\MultiModalDoc.vcxproj", "{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{809E1CF1-93D3-41D4-9A5A-57226B558911}.Release|x64.Build.0 = Release|x64
 		{809E1CF1-93D3-41D4-9A5A-57226B558911}.Release|x86.ActiveCfg = Release|Win32
 		{809E1CF1-93D3-41D4-9A5A-57226B558911}.Release|x86.Build.0 = Release|Win32
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Debug|x64.ActiveCfg = Debug|x64
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Debug|x64.Build.0 = Debug|x64
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Debug|x86.Build.0 = Debug|Win32
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Release|x64.ActiveCfg = Release|x64
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Release|x64.Build.0 = Release|x64
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Release|x86.ActiveCfg = Release|Win32
+		{BFA6A5E0-7077-49B3-9404-72CB81D5BD04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
