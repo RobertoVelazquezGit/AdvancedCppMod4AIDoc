@@ -119,7 +119,7 @@ namespace MultiModalDocumentation {
         DocumentationOrchestrator::generateDocumentation(const DocumentationRequest& request) {
         const auto start = std::chrono::steady_clock::now();
         std::promise<GenerationResult> promise;
-        auto future = promise.get_future();
+        auto future = promise.get_future();  // ToDo
         // Compute immediately and return a ready future; no background thread is needed.
         try {
             if (request.sourceCodePath.empty() || request.requiredFormats.empty())
