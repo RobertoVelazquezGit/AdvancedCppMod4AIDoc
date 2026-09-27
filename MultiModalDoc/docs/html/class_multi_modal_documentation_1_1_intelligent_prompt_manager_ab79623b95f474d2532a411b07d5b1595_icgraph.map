@@ -1,0 +1,5 @@
+<map id="MultiModalDocumentation::IntelligentPromptManager::predictPromptEffectiveness" name="MultiModalDocumentation::IntelligentPromptManager::predictPromptEffectiveness">
+<area shape="rect" id="Node000001" title="Retrieves a fixed mock effectiveness score." alt="" coords="231,5,420,64"/>
+<area shape="rect" id="Node000002" href="$class_multi_modal_documentation_1_1_intelligent_prompt_manager.html#a3a57869c6c80b1a85a81573b94295b30" title="Appends context and feedback to a prompt without semantic analysis." alt="" coords="5,5,183,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,35,183,37,183,32,218,34"/>
+</map>

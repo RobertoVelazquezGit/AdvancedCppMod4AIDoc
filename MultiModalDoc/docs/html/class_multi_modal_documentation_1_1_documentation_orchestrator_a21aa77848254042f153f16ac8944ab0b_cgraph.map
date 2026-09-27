@@ -1,0 +1,20 @@
+<map id="MultiModalDocumentation::DocumentationOrchestrator::~DocumentationOrchestrator" name="MultiModalDocumentation::DocumentationOrchestrator::~DocumentationOrchestrator">
+<area shape="rect" id="Node000001" title="Releases registered engines and mock helpers." alt="" coords="5,188,203,247"/>
+<area shape="rect" id="Node000002" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#abe56de7fc1893b7a0e4afa9146e23afe" title="Generates requests sequentially in input order." alt="" coords="251,55,440,113"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,185,249,130,273,119,269,123,252,134,156,190"/>
+<area shape="rect" id="Node000003" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#aef37be67da016538f6a417e97fb8a94c" title="Computes mock documentation immediately and returns a ready future." alt="" coords="488,88,677,147"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="202,186,250,173,364,150,475,133,470,135,365,155,251,179,204,190"/>
+<area shape="rect" id="Node000007" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a63bc1578046441352742bb171aa92377" title="Configures the global mock quality threshold and blocking policy." alt="" coords="251,188,440,247"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="202,215,238,216,233,218,204,220"/>
+<area shape="rect" id="Node000008" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#ae8fc253730401cdc0111d1026324d2e6" title="Appends an audience label to nonempty content." alt="" coords="251,271,440,329"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="192,245,246,264,241,266,192,250"/>
+<area shape="rect" id="Node000009" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#ae216719c95e629a51f0ad28aa16a0cb8" title="Registers a mock engine without contacting an external service." alt="" coords="251,353,440,412"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="136,245,189,292,252,339,261,346,255,345,249,344,185,296,134,250"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,95,475,101,470,103,441,100"/>
+<area shape="rect" id="Node000004" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a17f56815c73f61ae40d3d3a698ded685" title="Appends every requested audience label to every generated format." alt="" coords="725,5,920,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="669,85,723,69,719,71,671,90"/>
+<area shape="rect" id="Node000005" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a5aaf1d86c24d290d94fee5b06c38038b" title="Selects a provider name without performing any optimization." alt="" coords="728,88,917,147"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="677,115,715,117,710,118,678,120"/>
+<area shape="rect" id="Node000006" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#ac6b2259a2625eef1428349476127faf1" title="Checks only the configured global quality threshold." alt="" coords="728,171,917,229"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="670,145,724,165,718,165,670,150"/>
+</map>

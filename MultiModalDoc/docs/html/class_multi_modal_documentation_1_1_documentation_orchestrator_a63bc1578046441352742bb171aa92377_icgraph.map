@@ -1,0 +1,5 @@
+<map id="MultiModalDocumentation::DocumentationOrchestrator::enableQualityGating" name="MultiModalDocumentation::DocumentationOrchestrator::enableQualityGating">
+<area shape="rect" id="Node000001" title="Configures the global mock quality threshold and blocking policy." alt="" coords="251,5,440,64"/>
+<area shape="rect" id="Node000002" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a21aa77848254042f153f16ac8944ab0b" title="Releases registered engines and mock helpers." alt="" coords="5,5,203,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,35,203,37,203,32,237,34"/>
+</map>

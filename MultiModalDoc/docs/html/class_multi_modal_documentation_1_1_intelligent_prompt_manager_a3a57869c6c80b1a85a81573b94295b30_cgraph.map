@@ -1,0 +1,7 @@
+<map id="MultiModalDocumentation::IntelligentPromptManager::optimizePrompt" name="MultiModalDocumentation::IntelligentPromptManager::optimizePrompt">
+<area shape="rect" id="Node000001" title="Appends context and feedback to a prompt without semantic analysis." alt="" coords="5,47,183,105"/>
+<area shape="rect" id="Node000002" href="$class_multi_modal_documentation_1_1_intelligent_prompt_manager.html#ac36123a8eecc0451bd2f5a92ce0ac3be" title="Wraps nonempty code as a single contextual element without parsing." alt="" coords="232,5,419,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,58,219,53,214,55,184,63"/>
+<area shape="rect" id="Node000003" href="$class_multi_modal_documentation_1_1_intelligent_prompt_manager.html#ab79623b95f474d2532a411b07d5b1595" title="Retrieves a fixed mock effectiveness score." alt="" coords="231,88,420,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,89,218,97,212,98,183,95"/>
+</map>

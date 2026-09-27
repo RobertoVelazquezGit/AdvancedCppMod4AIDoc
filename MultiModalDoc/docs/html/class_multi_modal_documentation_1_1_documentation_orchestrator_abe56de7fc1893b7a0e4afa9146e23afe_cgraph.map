@@ -1,0 +1,11 @@
+<map id="MultiModalDocumentation::DocumentationOrchestrator::batchGenerate" name="MultiModalDocumentation::DocumentationOrchestrator::batchGenerate">
+<area shape="rect" id="Node000001" title="Generates requests sequentially in input order." alt="" coords="5,88,195,147"/>
+<area shape="rect" id="Node000002" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#aef37be67da016538f6a417e97fb8a94c" title="Computes mock documentation immediately and returns a ready future." alt="" coords="243,88,432,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,115,230,117,224,118,196,120"/>
+<area shape="rect" id="Node000003" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a17f56815c73f61ae40d3d3a698ded685" title="Appends every requested audience label to every generated format." alt="" coords="480,5,674,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,85,473,70,478,69,425,90"/>
+<area shape="rect" id="Node000004" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#a5aaf1d86c24d290d94fee5b06c38038b" title="Selects a provider name without performing any optimization." alt="" coords="482,88,672,147"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,115,470,117,464,118,433,120"/>
+<area shape="rect" id="Node000005" href="$class_multi_modal_documentation_1_1_documentation_orchestrator.html#ac6b2259a2625eef1428349476127faf1" title="Checks only the configured global quality threshold." alt="" coords="482,171,672,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="425,145,478,165,473,165,424,150"/>
+</map>
