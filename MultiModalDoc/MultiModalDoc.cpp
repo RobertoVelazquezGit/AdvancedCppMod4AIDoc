@@ -116,7 +116,7 @@ namespace MultiModalDocumentation {
     }
 
     std::future<DocumentationOrchestrator::GenerationResult>
-        DocumentationOrchestrator::generateDocumentation(const DocumentationRequest& request) {
+        DocumentationOrchestrator::generateDocumentation(const /*DocumentationOrchestrator::*/DocumentationRequest& request) {
         const auto start = std::chrono::steady_clock::now();
         std::promise<GenerationResult> promise;
         auto future = promise.get_future();  // ToDo
