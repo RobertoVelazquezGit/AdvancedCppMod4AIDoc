@@ -1,0 +1,9 @@
+<map id="EnterpriseDocumentationSystem::DocumentationDeploymentManager::deployDocumentationService" name="EnterpriseDocumentationSystem::DocumentationDeploymentManager::deployDocumentationService">
+<area shape="rect" id="Node000001" title="Validates configuration and simulates an initial deployment." alt="" coords="5,88,243,147"/>
+<area shape="rect" id="Node000002" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#a246ae2098ae8325f9781f8a405b53454" title="Enables the simulated balancing flag exactly when currentInstances exceeds one." alt="" coords="291,5,528,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,85,293,68,289,70,229,90"/>
+<area shape="rect" id="Node000003" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#ab7173e70bdd6cb6ddeba2846c386a9b5" title="Marks simulated monitoring as ready without contacting an endpoint." alt="" coords="291,88,528,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,115,278,117,273,118,244,120"/>
+<area shape="rect" id="Node000004" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#a668c20661cfaad054ff36e2b3d2a28cc" title="Checks required labels, instance bounds and monitoring interval." alt="" coords="291,171,528,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,145,294,165,288,166,228,150"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="EnterpriseDocSystem.h" name="EnterpriseDocSystem.h">
+<area shape="rect" id="Node000001" title="In&#45;memory documentation deployment mock and configuration types." alt="" coords="86,5,246,32"/>
+<area shape="rect" id="Node000002" href="$_enterprise_doc_system_8cpp.html" title="Implements the in&#45;memory deployment state transitions documented in the header." alt="" coords="5,80,180,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,42,107,82,104,77,140,44"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Demonstrates the deployment mock, checks behavior and times six operations." alt="" coords="203,80,278,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,40,230,80,225,79,189,45"/>
+</map>

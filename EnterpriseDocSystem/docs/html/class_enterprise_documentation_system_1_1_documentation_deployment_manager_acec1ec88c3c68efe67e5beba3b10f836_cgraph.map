@@ -1,0 +1,5 @@
+<map id="EnterpriseDocumentationSystem::DocumentationDeploymentManager::scaleDocumentationProcessing" name="EnterpriseDocumentationSystem::DocumentationDeploymentManager::scaleDocumentationProcessing">
+<area shape="rect" id="Node000001" title="Manually sets the instance count and updates simulated load balancing." alt="" coords="5,5,243,64"/>
+<area shape="rect" id="Node000002" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#a246ae2098ae8325f9781f8a405b53454" title="Enables the simulated balancing flag exactly when currentInstances exceeds one." alt="" coords="291,5,528,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,32,278,34,273,35,243,37"/>
+</map>

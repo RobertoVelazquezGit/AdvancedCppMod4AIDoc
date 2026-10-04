@@ -1,3 +1,5 @@
+/// @file main.cpp
+/// @brief Demonstrates the deployment mock, checks behavior and times six operations.
 #include "EnterpriseDocSystem.h"
 
 #include <cstddef>
@@ -8,12 +10,27 @@
 using EnterpriseDocumentationSystem::DocumentationDeploymentManager;
 
 namespace {
+/// @brief Checks a condition in both Debug and Release builds.
+/// @param condition Condition that must hold.
+/// @param message Diagnostic used if the check fails.
+/// @throws std::runtime_error If condition is false.
 void require(bool condition, const char* message) {
     if (!condition) {
         throw std::runtime_error(message);
     }
 }
 
+/// @brief Warms up and times repeated calls using std::chrono::steady_clock.
+/// @tparam Operation Callable accepting an integer index and returning a size-compatible value.
+/// @param name Label printed after the timed loop.
+/// @param iterations Number of timed calls; must be positive.
+/// @param operation Callable invoked for 1000 warm-up calls and then iterations timed calls.
+/// @pre iterations > 0.
+/// @details Warm-up changes the same state used by the timed loop. Output includes
+/// total milliseconds, mean nanoseconds per call and a sum of returned values.
+/// Printing is outside the timed region. Exceptions propagate to the caller.
+/// @warning This is an illustrative microbenchmark: compiler optimization may remove
+/// trivial work. The checksum does not guarantee that every state update is retained.
 template <typename Operation>
 void benchmark(const char* name, int iterations, Operation operation) {
     // Warm up allocations and code paths before taking a measurement.
@@ -35,6 +52,14 @@ void benchmark(const char* name, int iterations, Operation operation) {
 }
 }
 
+/// @brief Runs behavior checks, prints initial metrics and benchmarks the mock.
+/// @details Uses instance bounds [2, 8], one mock cluster and two alert labels.
+/// Checks rejection before deployment, invalid bounds, scaling, rollback, alerts
+/// and the blue-green flag. Then performs 100000 timed iterations per case:
+/// construction plus deployment, scaling, metric snapshots, alert configuration,
+/// blue-green toggling, and scaling plus rollback.
+/// @return 0 on completion; 1 when a caught standard exception reports failure.
+/// @note Timings describe local mock operations only. Use Release builds when comparing runs.
 int main() {
     try {
         const DocumentationDeploymentManager::DeploymentConfig deployment{

@@ -1,3 +1,5 @@
+/// @file EnterpriseDocSystem.cpp
+/// @brief Implements the in-memory deployment state transitions documented in the header.
 #include "EnterpriseDocSystem.h"
 
 namespace EnterpriseDocumentationSystem {

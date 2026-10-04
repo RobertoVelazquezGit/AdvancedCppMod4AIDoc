@@ -1,0 +1,14 @@
+<map id="EnterpriseDocumentationSystem::DocumentationDeploymentManager::configureLoadBalancing" name="EnterpriseDocumentationSystem::DocumentationDeploymentManager::configureLoadBalancing">
+<area shape="rect" id="Node000001" title="Enables the simulated balancing flag exactly when currentInstances exceeds one." alt="" coords="400,88,637,147"/>
+<area shape="rect" id="Node000002" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#a15484500b915db4b7a1d5d2b7682dc1c" title="Validates configuration and simulates an initial deployment." alt="" coords="114,5,352,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="398,84,337,67,337,62,403,83"/>
+<area shape="rect" id="Node000004" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#ae3b0208191def2e5389c35538cc94777" title="Restores the instance count recorded at the initial deployment." alt="" coords="114,88,352,147"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="382,118,352,120,352,115,387,117"/>
+<area shape="rect" id="Node000005" href="$class_enterprise_documentation_system_1_1_documentation_deployment_manager.html#acec1ec88c3c68efe67e5beba3b10f836" title="Manually sets the instance count and updates simulated load balancing." alt="" coords="114,171,352,229"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="403,151,338,173,336,167,398,152"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Runs behavior checks, prints initial metrics and benchmarks the mock." alt="" coords="17,104,66,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,72,116,78,66,106,63,102,113,74,129,69"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="75,96,74,91,69,87,42,83,20,85,10,90,9,97,19,106,14,109,4,99,6,88,19,80,42,77,72,83,79,89,80,97"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="97,119,68,120,66,115,101,116"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="125,165,113,161,64,134,65,128,116,156,130,164"/>
+</map>

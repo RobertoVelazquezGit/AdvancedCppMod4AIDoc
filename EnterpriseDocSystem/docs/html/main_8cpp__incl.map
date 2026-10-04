@@ -1,0 +1,21 @@
+<map id="main.cpp" name="main.cpp">
+<area shape="rect" id="Node000001" title="Demonstrates the deployment mock, checks behavior and times six operations." alt="" coords="337,5,411,32"/>
+<area shape="rect" id="Node000002" href="$_enterprise_doc_system_8h.html" title="In&#45;memory documentation deployment mock and configuration types." alt="" coords="69,80,229,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,33,204,77,202,72,339,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="253,80,317,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="361,31,313,72,311,68,356,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="341,80,407,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="376,30,376,66,372,63,373,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="432,80,503,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="391,30,442,71,437,70,390,35"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="527,80,605,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="408,30,521,74,516,74,407,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,66,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,108,70,148,67,144,127,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="90,155,136,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="145,106,128,142,124,139,140,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="160,155,213,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="157,105,175,141,170,140,154,110"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="238,155,295,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="170,105,236,146,230,147,169,110"/>
+</map>
