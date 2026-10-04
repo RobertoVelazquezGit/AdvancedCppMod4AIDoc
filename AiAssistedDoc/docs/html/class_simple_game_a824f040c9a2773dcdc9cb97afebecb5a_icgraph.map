@@ -1,0 +1,8 @@
+<map id="SimpleGame::calculateScore" name="SimpleGame::calculateScore">
+<area shape="rect" id="Node000001" title="Computes a proximity score without awarding points or checking round state." alt="" coords="331,29,521,56"/>
+<area shape="rect" id="Node000002" href="$class_simple_game.html#af10b70e2bdc45a0e3bc4f6ee11e37e11" title="Checks a guess and prints feedback; exact matches add 100 points." alt="" coords="108,29,283,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="313,43,283,45,283,40,318,43"/>
+<area shape="rect" id="Node000003" href="$_ai_assisted_doc_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Demonstrates three rounds with Alice, Bob and Charlie." alt="" coords="11,29,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,43,61,45,60,40,95,42"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="62,15,54,10,36,8,19,10,10,15,8,20,13,28,8,30,3,21,6,11,17,5,36,3,56,5,67,14"/>
+</map>

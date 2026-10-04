@@ -1,0 +1,7 @@
+<map id="Player::checkLevelUp" name="Player::checkLevelUp">
+<area shape="rect" id="Node000001" title="Advances once and clears all points when a positive threshold is met." alt="" coords="5,31,155,57"/>
+<area shape="rect" id="Node000002" href="$class_player.html#a5bda3bad89f797546360636deb154fbb" title="Increments the level by one without changing the score." alt="" coords="212,5,322,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,31,199,28,194,29,155,37"/>
+<area shape="rect" id="Node000003" href="$class_player.html#a7dfdc0be35fa9ae42104a6bfe47634b8" title="Clears the score while preserving name and level." alt="" coords="203,56,332,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,51,190,58,185,59,155,57"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SimpleGame::makeGuess" name="SimpleGame::makeGuess">
+<area shape="rect" id="Node000001" title="Checks a guess and prints feedback; exact matches add 100 points." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="Node000002" href="$class_simple_game.html#a824f040c9a2773dcdc9cb97afebecb5a" title="Computes a proximity score without awarding points or checking round state." alt="" coords="228,5,418,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,16,215,19,209,19,180,21"/>
+</map>

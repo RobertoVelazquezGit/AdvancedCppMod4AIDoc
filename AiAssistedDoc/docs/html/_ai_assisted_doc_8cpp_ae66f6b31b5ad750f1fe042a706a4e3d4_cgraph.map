@@ -1,0 +1,24 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Demonstrates three rounds with Alice, Bob and Charlie." alt="" coords="13,132,62,159"/>
+<area shape="poly" id="edge8_Node000001_Node000001" title=" " alt="" coords="10,134,4,125,6,115,18,108,38,105,61,109,72,119,67,121,59,114,38,111,19,113,10,118,9,124,15,133"/>
+<area shape="rect" id="Node000002" href="$class_simple_game.html#a05751f20c765569e6c74d951d9510d6c" title="Registers a player or prints a message for a duplicate name." alt="" coords="127,5,289,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,130,67,87,86,62,109,42,120,37,117,41,112,46,90,66,71,89,47,133"/>
+<area shape="rect" id="Node000003" href="$class_simple_game.html#a89d58b4199a0dd1e228286dbc3bbfce1" title="Prints players in registration order, or a message for an empty roster." alt="" coords="113,56,303,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="53,130,79,110,109,92,129,86,125,90,112,97,82,115,57,133"/>
+<area shape="rect" id="Node000004" href="$class_simple_game.html#aab0226daf517081313dfe1d990d07d9b" title="Ends an active round, reveals its target and prints player standings." alt="" coords="126,107,290,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="62,139,113,133,109,136,64,144"/>
+<area shape="rect" id="Node000008" href="$class_simple_game.html#a9442ace752ee9477fa0ac554068dc754" title="Reads round activity." alt="" coords="115,157,301,184"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="62,146,101,153,97,156,64,151"/>
+<area shape="rect" id="Node000009" href="$class_simple_game.html#af10b70e2bdc45a0e3bc4f6ee11e37e11" title="Checks a guess and prints feedback; exact matches add 100 points." alt="" coords="121,208,295,235"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="55,157,82,176,112,194,129,202,124,203,109,198,79,180,55,162"/>
+<area shape="rect" id="Node000011" href="$class_simple_game.html#a07afa63f892d69f6cdd65689afcc71be" title="Generates a target in [1, 100], increments the round and activates play." alt="" coords="110,259,306,285"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="46,157,71,201,90,225,112,245,121,252,116,252,109,249,86,228,67,204,44,162"/>
+<area shape="rect" id="Node000005" href="$class_player.html#a1af726c70400de2e23e8da5858c57463" title="Advances once and clears all points when a positive threshold is met." alt="" coords="374,107,524,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="290,117,361,119,356,121,291,123"/>
+<area shape="rect" id="Node000006" href="$class_player.html#a5bda3bad89f797546360636deb154fbb" title="Increments the level by one without changing the score." alt="" coords="602,81,712,108"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="523,108,589,103,584,104,524,114"/>
+<area shape="rect" id="Node000007" href="$class_player.html#a7dfdc0be35fa9ae42104a6bfe47634b8" title="Clears the score while preserving name and level." alt="" coords="592,132,721,159"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="524,126,579,135,574,136,524,132"/>
+<area shape="rect" id="Node000010" href="$class_simple_game.html#a824f040c9a2773dcdc9cb97afebecb5a" title="Computes a proximity score without awarding points or checking round state." alt="" coords="354,208,544,235"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="295,219,341,221,335,222,296,224"/>
+</map>
